@@ -15,19 +15,8 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-.container {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
+
 body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
     background-color: #141331;
 }
 
@@ -35,22 +24,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-.coming-soon-container {
-  text-align: center;
-  margin-top: 15rem;
-  width:fit-content;
-  align-content: center;
-}
-
-.coming-soon-container h1 {
-  font-size: 100px;
-  font-weight: bolder;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #333;
-}
-
-.coming-soon-container p {
-  font-size: 18px;
-  color: #666;
 }
